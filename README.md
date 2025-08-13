@@ -38,7 +38,7 @@ Skilliverse/
 
 
 ## ⚡ Getting Started
-
+```
 1️⃣ Clone the repository
 
 ```bash
