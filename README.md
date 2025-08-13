@@ -12,6 +12,7 @@ With a clean dashboard, progress tracking, and personalized course recommendatio
 ✅ Progress Tracking — Visual streaks, goal completion, and course statistics.
 ✅ Premium Access — Unlock exclusive features and advanced lessons.
 
+
 ## 🛠 Tech Stack
 
 * Frontend: React.js, Tailwind CSS / Bootstrap
@@ -35,7 +36,7 @@ Skilliverse/
 │   └── index.js      # Entry point
 ├── package.json
 └── README.md
-
+```
 
 ## ⚡ Getting Started
 ```
