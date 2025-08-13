@@ -84,4 +84,4 @@ This project is licensed under the **MIT License** — free to use and modify.
 
 ---
 
-If you want, I can also make you a **GitHub README with badges, gradient headings, and animated GIFs** so it stands out. That would make your repo look super professional.
+
