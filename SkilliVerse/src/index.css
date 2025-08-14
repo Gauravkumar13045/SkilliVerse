@@ -121,12 +121,19 @@
   body, html, #root {
     margin: 0 !important;
     padding: 0 !important;
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 .typing-effect {
   border-right: 2px solid;
   animation: blink-caret 0.75s step-end infinite;
 }
+/* .message{
+  border-radius: 100%;
+  padding: 0.3rem;
+  border-color: rgb(255, 255, 255);
+  background-color: rgb(211, 211, 211);
+  cursor: pointer;
+} */
 
 
 @keyframes blink-caret {
@@ -138,6 +145,7 @@
   @keyframes blink-caret {
     from, to { border-color: transparent; }
     50% { border-color: white; } /* Overrides for dark mode */
+    
   }
 }
 }

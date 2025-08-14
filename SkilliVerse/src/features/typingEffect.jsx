@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const words = ["Verse", "Build", "Grow", "Future", "Learn", "Hub"];
+const words = ["Verse", "Build", "Grow", "Learn", "Hub"];
 
 const TypingEffect = () => {
   const [displayText, setDisplayText] = useState('');
@@ -35,9 +35,9 @@ const TypingEffect = () => {
   }, [displayText, isDeleting, charIndex, wordIndex]);
 
   return (
-    <span className="text-2xl font-semibold text-white-800 font-bold p-1  font-mono text-black dark:text-white">
+    <span className="text-2xl font-semibold text-white-800 font-bold   font-mono text-black dark:text-white ">
       Skill
-      <span className="typing-effect text-orange-400 " >  <span className="hidden lg:inline ">{displayText}</span></span>
+      <span className="typing-effect text-orange-400 ml-0" >  <span className="hidden lg:inline ">{displayText}</span></span>
       <style>{`
         /* The animation is defined only once, using a CSS variable for color */
         @keyframes blink-caret {
